@@ -1,0 +1,48 @@
+{
+  "name": "JEEWITHAYATA-PHYSICS-AP",
+  "version": "1.0.0",
+  "description": "Interactive 3D Physics Measurement Laboratory for A/L Physics Students",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest"
+  },
+  "keywords": [
+    "physics",
+    "measurement",
+    "A/L",
+    "Sri Lanka",
+    "Vernier",
+    "Micrometer",
+    "3D",
+    "Interactive",
+    "Educational"
+  ],
+  "author": "sakunaperera4-png",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "next": "^14.0.0",
+    "three": "^r128.0.0",
+    "@react-three/fiber": "^8.13.0",
+    "@react-three/drei": "^9.81.0",
+    "framer-motion": "^10.16.0",
+    "zustand": "^4.4.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "jest": "^29.0.0",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/jest-dom": "^6.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
